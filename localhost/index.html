@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>SmadyDevices</title>
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/menu-style.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/style-phone.css" media="(max-device-width: 320px)">
+	<link rel="stylesheet" href="css/style-phone.css" media="(max-device-width: 400px)">
+  <link rel="stylesheet" href="css/style2.css">
+  <link rel="stylesheet" href="css/style-js-eff.css">
+  <link rel="stylesheet" href="css/accordion.css" media="(max-device-width: 820px)">
+</head>
+<body>
+	 <div id="r-menu-container" class="name">
+		<div class="panel">
+  			<div class="menu"></div>
+  				<div class="pc-menu">
+    				<ul>
+    					<li><a  style="color: white;" href="">How it works</a><li>
+    					<li><a  style="color: white;" href="">About SMADY</a></li>
+     					<li><a  style="color: white;" href="">Rating of devices</a></li>
+					    <li><a  style="color: white;" href="">License payment</a></li>
+					    <li><a  style="color: white;" href="">License agreement</a></li>
+					    <li><a  style="color: white;" href="">Contact Us</a></li>
+					    <li><a  style="color: white;" href="">Sign up</a></li>
+					    <li><a  style="color: white;" href="">Your profile</a></li>
+    				</ul>
+   				</div>
+   				<img id="close-menu"src="images/close.svg" class="close-menu"  alt="close icon">
+ 		</div>
+	</div>
+	<header class="top-section">
+		<div class="alignment">
+			<div class="logo-wrapper">
+				<a href=""><img  class="logo" src="images/log.png" alt="Logo"></a>
+				<span>About&nbsp;SMADY</span>
+			</div>
+			<div class="head-btn">
+				<img class="icn-fcb" src="images/facebook.svg"  alt="facebook icon">
+				<img class="icn-yt" src="images/yt.svg"  alt="youtube icon">
+				<button class="btn-yprof">Your profile</button>
+				<img class="menu-icon" id="btn-vis-menu" src="images/menu_icon.svg" alt="menu icon" style="width: .4rem;">
+			</div>
+	</div>
+	</header>
+	<div class="wrapper">
+		<main>
+			<h1 class="title">SMARTPHONES &amp; TABLETS</h1>
+			<p class="who">Are you at loss or are you very picky?<br>Can’t choose out of thousands options? Have many expectations?</p>
+			<section class="rac">
+				<p>
+					<span id="rate">RATE</span>   /
+					<span id="ask">ASK</span>   /
+					<span id="choose">CHOOSE</span>
+				</p>
+			</section>
+			<div class="info-panel">
+				<p class="info" id="text-inf">CHOOSE Service: You know, what you want from a phone and you have a long list of<br>requirements, but technical specs bore you stiff.<br>Let SMADY crunch its whole data base to pick the best phone for you</p>
+			</div>
+
+			<div class="btn-wrapper">
+				<button type="button" class="btn works needs"><span class="btn-txt-after">Your needs </span></button>
+				<button type="button" class="btn works budget"><span class="btn-txt-after">Budget for dvice </span></button>
+				<button type="button" class="btn works rating"><span class="btn-txt-after">CREATE RATING </span></button>
+			</div>
+		</main>
+	</div>
+	<footer>
+		<nav class="foot-links">
+			<a href="">How it works</a> <wbr> <a href="">Rating of devices </a>  <wbr><a href="">License payment  </a> <wbr><a href="">License agreement</a> <wbr> <a href=""> Contact Us</a>
+		</nav>
+		<span class="copyright">Copyright © 2016 SMADY DEVICES LIMITED. All Rights reserved. </span>
+	</footer>
+	<div class="sec-wrapper">
+    <div class="sec-indicator"></div>
+    <span id="sec-ind-n">Your needs</span>
+    <span id="sec-ind-b">Budget for device</span>
+    <img src="images/close.png " id="sec-close" alt="Close">
+    <div class="sec-content-wrapper">
+      <div class="sec-colums  sec-col_1">
+        <h1 class="sec-title-colum" id="i_next-a">Group</h1>
+        <ul class="sec-items">
+          <li class="sec-item" id="disp"><span>Display</span></li>
+          <li class="sec-item" id="fcm"><span>Form, colors and materials</span></li>
+          <li class="sec-item" id="perf"><span>Performance and memory</span></li>
+          <li class="sec-item" id="pva"><span>Photo, video and audio</span></li>
+          <li class="sec-item" id="os"><span>Operation System</span></li>
+          <li class="sec-item" id="net"><span>Mobile networks</span></li>
+          <li class="sec-item" id="batt"><span>Battery</span></li>
+          <li class="sec-item" id="mpu"><span>Main purpose of the use</span></li>
+          <li class="sec-item" id="tech"><span>Technologies</span></li>
+          <li class="sec-item" id="rel"><span>Release for sale</span></li>
+        </ul>
+      </div>
+      <div class="sec-colums sec-col_2">
+        <h1 class="sec-title-colum" >Need</h1>
+        <ul class="sec-items"></ul>
+      </div>
+      <div class="sec-colums sec-col_3" >
+        <h1 class="sec-title-colum tit-on" >Selected needs</h1>
+        <span>Drag-n-drop important needs above</span>
+        <div id="sec-result-wrapper" >
+          <ul class="sec-items dropzone" id="sec-result">
+            <!-- <li class="sec-item">Lorem931</li> -->
+
+         </ul>
+        </div>
+        <button type="button" id="sec-clear-btn">Clear All</button>
+      </div>
+      <div class="sec-colums sec-col_4" style="display:none;">
+        <h1 class="sec-title-colum">Price range</h1>
+        <span id="sec-currency" class="dropbtn" onclick="myFunction()">EUR</span>
+        <div id="myDropdown" class="dropdown-content">
+          <div id="tringle"></div>
+          <div style="padding-top:14px; padding-bottom:22px;">
+            <a>USD</a>
+            <a>EUR</a>
+            <a>GBP</a>
+            <a>CNY</a>
+            <a>INR</a>
+          </div>
+        </div>
+        <ul class="sec-items">
+          <li class="sec-item" id="to_100">up to 100 EUR</li>
+          <li class="sec-item" id="to_250">up to 250 EUR</li>
+          <li class="sec-item" id="to_450">up to 450 EUR</li>
+          <li class="sec-item" id="to_700">up to 700 EUR</li>
+          <li class="sec-item" id="to_1000">up to 1000 EUR</li>
+          <li class="sec-item" id="to_any">any price</li>
+        </ul>
+      </div>
+      <div class="sec-colums sec-col_5" style="display:none;">
+        <h1 class="sec-title-colum">Rating of devices</h1>
+        <ul class="sec-items">
+          <li>Find out which devices meet your needs</li>
+          <li><button id="sec-rating">Create rating</button></li>
+        </ul>
+      </div>
+
+    </div>
+  </div>
+
+  <script src="js/scr.js"></script>
+  <script src="js/currency.js"></script>
+  <script src="js/accordion.js"></script>
+	<script src="js/draganddrop.js"></script>
+	<script src="js/script.js"></script>
+</body>
+</html>
